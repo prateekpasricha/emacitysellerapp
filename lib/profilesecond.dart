@@ -1,4 +1,4 @@
-import 'package:flutter_traveler_profile_app/SizeConfig.dart';
+import 'package:seller_profile_app/SizeConfig.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

@@ -1,10 +1,10 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_traveler_profile_app/SizeConfig.dart';
-import 'package:flutter_traveler_profile_app/home.dart';
-import 'package:flutter_traveler_profile_app/notifications.dart';
-import 'package:flutter_traveler_profile_app/profilefirst.dart';
-import 'package:flutter_traveler_profile_app/profilesecond.dart';
+import 'package:seller_profile_app/SizeConfig.dart';
+import 'package:seller_profile_app/home.dart';
+import 'package:seller_profile_app/notifications.dart';
+import 'package:seller_profile_app/profilefirst.dart';
+import 'package:seller_profile_app/profilesecond.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:line_icons/line_icons.dart';
 
