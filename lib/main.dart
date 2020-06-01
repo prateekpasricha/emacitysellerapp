@@ -61,7 +61,7 @@ class _ProfileHomeState extends State<ProfileHome> with SingleTickerProviderStat
       bottomNavigationBar: Container(
         height: 10 * SizeConfig.heightMultiplier,
         decoration: BoxDecoration(color: Colors.white, boxShadow: [
-          BoxShadow(blurRadius: 20, color: Colors.black.withOpacity(.1))
+          BoxShadow(blurRadius: 20, color: Colors.black87.withOpacity(.1))
         ]),
         child: SafeArea(
           child: Padding(
@@ -72,23 +72,31 @@ class _ProfileHomeState extends State<ProfileHome> with SingleTickerProviderStat
                 iconSize: 24,
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
                 duration: Duration(milliseconds: 800),
-                tabBackgroundColor: Colors.black87,
-                tabs: [
+                tabBackgroundColor: Color.fromRGBO(00,33,66, 1),
+              tabs: [
                   GButton(
                     icon: LineIcons.home,
+                    iconColor: Color.fromRGBO(00,33,66, 1),
                     text: 'Home',
+                    textColor: Colors.white,
                   ),
                   GButton(
                     icon: LineIcons.bell,
+                    iconColor: Color.fromRGBO(00,33,66, 1),
                     text: 'Notifications',
+                    textColor: Colors.white,
                   ),
                   GButton(
                     icon: LineIcons.map_marker,
+                    iconColor: Color.fromRGBO(00,33,66, 1),
                     text: 'Track Order',
+                    textColor: Colors.white,
                   ),
                   GButton(
                     icon: LineIcons.user,
+                    iconColor: Color.fromRGBO(00,33,66, 1),
                     text: 'Profile',
+                    textColor: Colors.white,
                   ),
                 ],
                 selectedIndex: _selectedIndex,
